@@ -7,7 +7,7 @@
 <meta name=description content="Μετεωρολογικός Σταθμός Kολχικού Θεσσαλονίκης">
 <meta name=keywords content="Μετεωρολογικός Σταθμός Kολχικού Θεσσαλονίκης,Μετεωρολογικός σταθμός,webcam,halkidiki, weather data, halkidiki weather station,nea moudania weather station, steelseries">
 <title>Μετεωρολογικός Σταθμός Kολχικού Θεσσαλονίκης</title>
-<link rel=stylesheet href=index.css>
+<link rel=stylesheet href=/kolxiko/realtime/index.css>
 </head>
 <body>
 <header>Mετεωρολογικός &nbsp; Σταθμός&nbsp; <span style=color:blue;font-weight:bold>Κολχικού</span>&nbsp; Θεσσαλονίκης</header>
@@ -90,13 +90,13 @@
 <input id=rad_unitsCloudBase1 type=radio name=rad_unitsCloud value=m checked onclick=gauges.setUnits(this)><label id=lab_unitsCloudBase1 for=rad_unitsCloudBase1>m</label>
 <input id=rad_unitsCloudBase2 type=radio name=rad_unitsCloud value=ft onclick=gauges.setUnits(this)><label id=lab_unitsCloudBase2 for=rad_unitsCloudBase2>ft</label>
 </div> </div><br>
-<footer> Φιλοξενία Ιστοσελίδας <a href=https://infinityfree.net/>infinityfree</a> scripts: Mark Crossley version 2.7.5, Gauges: Gerrit Grunwald, Kατασκευή Σελίδας ΜetFM 2016-2020 <a href=mailto:hobbyline187@gmail.com>Eπικοινωνία</a><br>
+<footer> Φιλοξενία Ιστοσελίδας <a href=https://moudania.com/>moudania.com</a> scripts: Mark Crossley version 2.7.6, Gauges: Gerrit Grunwald, Kατασκευή Σελίδας ΜetFM 2016-2022 <a href=mailto:hobbyline187@gmail.com>Eπικοινωνία</a><br>
 </footer>
  <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="scripts/steelseries_tween.min.js"></script>
-<script src="scripts/language.min.js"></script>
-<script src="scripts/gauges.js"></script>
-<script src="scripts/RGraph.common.core.min.js"></script>
-<script src="scripts/RGraph.rose.min.js"></script>
+<script src="/kolxiko/realtime/scripts/steelseries_tween.min.js"></script>
+<script src="/kolxiko/realtimes/cripts/language.min.js"></script>
+<script src="/kolxiko/realtime/scripts/gauges.js"></script>
+<script src="/kolxiko/realtime/scripts/RGraph.common.core.min.js"></script>
+<script src="/kolxiko/realtime/scripts/RGraph.rose.min.js"></script>
 </body>
 </html>
