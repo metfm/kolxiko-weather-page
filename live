@@ -10,22 +10,8 @@
 <link rel=stylesheet href=/kolxiko/realtime/index.css>
 </head>
 <body>
-<header>Mετεωρολογικός &nbsp; Σταθμός&nbsp; <span style=color:blue;font-weight:bold>Κολχικού</span>&nbsp; Θεσσαλονίκης</header>
-<ul>
-<li class=dropdown>
-<a href=javascript:void(0) class=dropbtn>Μενού-Σύνδεσμοι</a>
-<div class=dropdown-content>
-<a href=http://kolxiko.epizy.com/>Στατιστικά σταθμού</a>
-<a href=http://weewx.com/>Iστοσελίδα weewx</a>
-<a href=http://www.stravon.gr/pinakas/ target=_blank>Στράβων</a>
-<a href=https://kairos.snowguide.gr/ target=_blank>Snowguide</a>
-<a href=https://timeforgoodnews.gr/ target=_blank>Time For Good News</a>
-<a href=https://linux-user.gr/ target=_blank>Linux user.gr</a>
-<a href=http://johnpoupalos.weebly.com/ target=_blank>A 44 Radio</a>
-<a href=http://fanisradio.blogspot.gr/ target=_blank>HB Radio</a>
-</div>
-</li>
-</ul><br>
+
+
 <div class=organa>
 <noscript>
 <h2 style=color:red;text-align:center>This pages requires JavaScript enabling in your browser.<br>Please enable scripting it to enjoy this site at its best.</h2>
@@ -90,8 +76,7 @@
 <input id=rad_unitsCloudBase1 type=radio name=rad_unitsCloud value=m checked onclick=gauges.setUnits(this)><label id=lab_unitsCloudBase1 for=rad_unitsCloudBase1>m</label>
 <input id=rad_unitsCloudBase2 type=radio name=rad_unitsCloud value=ft onclick=gauges.setUnits(this)><label id=lab_unitsCloudBase2 for=rad_unitsCloudBase2>ft</label>
 </div> </div><br>
-<footer> Φιλοξενία Ιστοσελίδας <a href=https://moudania.com/>moudania.com</a> scripts: Mark Crossley version 2.7.6, Gauges: Gerrit Grunwald, Kατασκευή Σελίδας ΜetFM 2016-2022 <a href=mailto:hobbyline187@gmail.com>Eπικοινωνία</a><br>
-</footer>
+
  <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="/kolxiko/realtime/scripts/steelseries_tween.min.js"></script>
 <script src="/kolxiko/realtimes/cripts/language.min.js"></script>
